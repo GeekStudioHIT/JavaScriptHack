@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>LineFeedAuto</title>
+</head>
+<body>
+	<canvas id="ft" width="400" height="400" style="background-color: #000;">您的浏览器不支持canvas。</canvas><br>
+	<textarea id="input" row="6" col="60" style="width:300px;height: 100px;">这是一段测试字符串。This is an test string.当在文本框输入内容后会同步显示到canvas上。</textarea>
+	<script type="text/javascript">
+	(function(){
+		function writeTextOnCanvas(cns, lh, rw, text){ // lh，行高；rw，每一行的宽度；
+			var cns = document.getElementById(cns); // 得到元素
+			var ctx = cns.getContext("2d"); // 得到画笔
+			var lineheight = lh; // 这是行高，行高由我来设置，行宽我也可以设置。0 —— 820。
+			var text = text; // 文本
+
+			ctx.width = cns.width; 
+			ctx.height = cns.height;
+
+			ctx.clearRect(0, 0, ctx.width, ctx.height); // 清屏，为什么要清屏。
+			ctx.font = "16px 微软雅黑"; // 设置 font
+			ctx.fillStyle = "#f00"; // 设置 颜色
+			function getTrueLength(str){ // 获取字符串的真实长度（字节长度） 
+				var len = str.length, truelen = 0;
+				for (var x = 0; x < len; x++) {
+					if (str.charCodeAt(x) > 128) { 
+						truelen += 2; 
+					} else {
+						truelen += 1;
+					}
+				}
+				return truelen;
+			}
+			/*
+			一开始让 tlen = str.length
+			遍历字符串
+			看每一个字符的 charCode
+			如果大于 128，让 nlen += 2，一直加到 leng，然后得到 tlen，将这个 tlen 返回。
+			rw 是一个字节长度。每一行只能有这么多个字节。可能宽度是根据字节来算的。
+			*/
+			function cutString(str, leng){ // 按字节长度截取字符串，返回 substr 截取位置
+				var len = str.length, tlen = len, nlen = 0;
+				for (var x = 0; x < len; x++) { // 遍历字符串，按字符个数
+					if (str.charCodeAt(x) > 128) {
+						if (nlen + 2 < leng) { // 如果小于
+							nlen += 2;
+						} else {
+							tlen = x;
+							break;
+						}
+					} else {
+						if (nlen + 1 < leng) {
+							nlen += 1;
+						} else {
+							tlen = x;
+							break;
+						}
+					}
+				}
+				return tlen;
+			}
+			for(var i = 0; getTrueLength(text) > 0; i++){ 
+				var tl = cutString(text, rw); // tl 是一行可以画的字符数。
+				ctx.fillText(text.substr(0, tl).replace(/^\s+|\s+$/, ""), 10, i * lineheight + 50); 
+				text = text.substr(tl); // substr，从一个地方开始截取
+			}
+			// 最后我得到这个 i ，便知道了整个字符串的高度。
+		}
+		writeTextOnCanvas("ft", 22, 40, document.getElementById("input").value);
+		document.getElementById("input").onkeyup = function(){
+			writeTextOnCanvas("ft", 22, 40, this.value);
+		}
+	})();
+	</script>
+</body>
+</html>

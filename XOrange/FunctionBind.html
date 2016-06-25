@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FunctionBind</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<button>FunctionBind</button>
+	<script type="text/javascript">
+		/*
+		追踪用户点击事件
+		*/
+		var logger = {
+			x: 0,
+			updateCount: function(){
+				this.x++;
+				console.log(this.x);
+				console.log(this);
+			}
+		}
+		document.querySelector('button').addEventListener('click', logger.updateCount);
+		// document.querySelector('button').addEventListener('click', logger.updateCount.bind(logger));
+	</script>
+</body>
+</html>

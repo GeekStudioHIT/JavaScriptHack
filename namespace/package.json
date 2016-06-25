@@ -1,0 +1,4 @@
+{
+    "dependencies": ["polyfill", "base.polymorphic"],
+    "sources": ["src.js"]
+}
