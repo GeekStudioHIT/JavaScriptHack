@@ -301,6 +301,8 @@ while (条件);
 
 循环过程中也都支持`break`和`continue`，这和`java`类似。
 
+- 对象字面量  
+《HTML5 权威指南》P84
 - 标签
 ```
 cars=["BMW","Volvo","Saab","Ford"];
