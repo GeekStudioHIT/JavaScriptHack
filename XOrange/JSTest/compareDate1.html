@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+<script>
+    // 输入日期格式为 '2016-07-27'
+    compareDate1 = function (start, end) {
+        if (start == null || start.length == 0 || end == null || end.length == 0) {
+            return 0;
+        }
+
+        var startArrs = start.split("-");
+        var startDate = new Date(startArrs[0], startArrs[1] - 1, startArrs[2]);
+        var startTimes = startDate.getTime();
+
+        var endArrs = end.split("-");
+        var endDate = new Date(endArrs[0], endArrs[1] - 1, endArrs[2]);
+        var endTimes = endDate.getTime();
+
+        var intervalTimes = endTimes - startTimes;
+        var intervalDays = intervalTimes / 1000 / 60 / 60 / 24;
+        return intervalDays;
+    }
+</script>
+</html>
