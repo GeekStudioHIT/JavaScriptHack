@@ -84,8 +84,8 @@
       <file leaf-file-name="removeBOM.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/removeBOM/removeBOM.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="195">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -161,8 +161,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="23" />
+    <option name="x" value="326" />
+    <option name="y" value="30" />
     <option name="width" value="1478" />
     <option name="height" value="873" />
   </component>
@@ -336,15 +336,15 @@
       <workItem from="1469716462038" duration="818000" />
       <workItem from="1469718407253" duration="120000" />
       <workItem from="1469718528830" duration="599000" />
-      <workItem from="1469722578672" duration="9621000" />
+      <workItem from="1469722578672" duration="9736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11158000" />
+    <option name="totallyTimeSpent" value="11273000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="106" y="23" width="1478" height="873" extended-state="0" />
+    <frame x="326" y="30" width="1478" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23472889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -621,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/removeBOM/removeBOM.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
