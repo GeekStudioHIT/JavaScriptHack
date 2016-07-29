@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node-echo" pinned="false" current-in-tab="true">
+      <file leaf-file-name="node-echo" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node-echoProjectDemo/bin/node-echo">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -41,31 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-echoProjectDemo/node_modules/argv/index.js">
+      <file leaf-file-name="littleFileCopy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fileTest/littleFileCopy/littleFileCopy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="argv.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-echoProjectDemo/node_modules/argv/lib/argv.js">
+      <file leaf-file-name="bigFileCopy.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fileTest/bigFileCopy/bigFileCopy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="325" column="32" selection-start-line="325" selection-start-column="28" selection-end-line="325" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-core.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-echoProjectDemo/node_modules/argv/test/test-core.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2098">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -145,6 +135,10 @@
         <option value="$PROJECT_DIR$/node-echoProjectDemo/lib/echo.js" />
         <option value="$PROJECT_DIR$/node-echoProjectDemo/package.json" />
         <option value="$PROJECT_DIR$/node-echoProjectDemo/bin/node-echo" />
+        <option value="$PROJECT_DIR$/node-echoProjectDemo/littleFileCopy.js" />
+        <option value="$PROJECT_DIR$/fileCopy/littleFileCopy.js" />
+        <option value="$PROJECT_DIR$/fileTest/littleFileCopy.js" />
+        <option value="$PROJECT_DIR$/fileTest/bigFileCopy.js" />
       </list>
     </option>
   </component>
@@ -209,6 +203,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJSTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJSTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fileTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="littleFileCopy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJSTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeJSTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fileTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigFileCopy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -234,6 +264,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fileTest/bigFileCopy" />
+      <recent name="$PROJECT_DIR$/fileTest/littleFileCopy" />
+      <recent name="$PROJECT_DIR$/fileCopy" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -310,12 +347,12 @@
       <workItem from="1469716462038" duration="818000" />
       <workItem from="1469718407253" duration="120000" />
       <workItem from="1469718528830" duration="599000" />
-      <workItem from="1469722578672" duration="3011000" />
+      <workItem from="1469722578672" duration="3993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4548000" />
+    <option name="totallyTimeSpent" value="5530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="23" width="1370" height="873" extended-state="0" />
@@ -549,6 +586,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTest/dst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTest/littleFileCopy/littleFileCopy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileTest/bigFileCopy/bigFileCopy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>

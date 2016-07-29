@@ -22,4 +22,7 @@
 - npm cache clear ?
 - npm publish
 	- please include the following file with any support request: npm-debug.js???
- 
+- 把所有内容一次性读取到内存中再一次性写入磁盘的方式不适合拷贝大文件，内存会爆仓。对于大文件，要读一点写一点，直到完成拷贝。
+- JS 语言本身只有字符串数据类型，没有二进制数据类型。
+- 字符串是只读的，并且对字符串的任何修改得到的都是一个新的字符串。Buffer 更像是可以做指针操作的 C 语言数组。.slice 是指向原 Buffer 中间的某个位置的指针。
+- 拷贝一份 Buffer，首先创建一个新的 Buffer，并通过 .copy 方法把原 Buffer 中的数据复制过去。 
