@@ -17,4 +17,9 @@
 - package.json，自定义入口模块的文件名和存放位置。
 - 我们在部署代码时需要一些技巧，让用户觉得自己是在使用一个命令行程序。
 - 可执行脚本
-	- [参考一](http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html)
+	- [参考一](http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html)	
+	- 命令行模式 和 API 模式？
+- npm cache clear ?
+- npm publish
+	- please include the following file with any support request: npm-debug.js???
+ 
