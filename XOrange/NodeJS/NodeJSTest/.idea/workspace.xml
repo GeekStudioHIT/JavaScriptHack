@@ -21,16 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="node-echo" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node-echoProjectDemo/bin/node-echo">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="removeBOM.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/removeBOM/removeBOM.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +101,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Socket/Client.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandLineCopyDir.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ProcessManage/CommandLineCopyDir/CommandLineCopyDir.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -162,6 +162,9 @@
         <option value="$PROJECT_DIR$/Zlib/Client.js" />
         <option value="$PROJECT_DIR$/Socket/Server.js" />
         <option value="$PROJECT_DIR$/Socket/Client.js" />
+        <option value="$PROJECT_DIR$/ProgressManage/CommandLineCopyDir.js" />
+        <option value="$PROJECT_DIR$/ProgressManage/CommandLineCopyDir/CommandLineCopyDir.js" />
+        <option value="$PROJECT_DIR$/ProcessManage/CommandLineCopyDir/CommandLineCopyDir.js" />
       </list>
     </option>
   </component>
@@ -236,7 +239,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Socket" />
+              <option name="myItemId" value="ProcessManage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandLineCopyDir" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -269,6 +276,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ProgressManage/CommandLineCopyDir" />
       <recent name="$PROJECT_DIR$/fileTest/bigFileCopy" />
       <recent name="$PROJECT_DIR$/fileTest/littleFileCopy" />
       <recent name="$PROJECT_DIR$/fileCopy" />
@@ -363,12 +371,12 @@
       <workItem from="1469722578672" duration="10259000" />
       <workItem from="1469785194178" duration="666000" />
       <workItem from="1469785947709" duration="1981000" />
-      <workItem from="1469857760958" duration="4507000" />
+      <workItem from="1469857760958" duration="5039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18950000" />
+    <option name="totallyTimeSpent" value="19482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="126" y="23" width="1440" height="873" extended-state="0" />
@@ -422,14 +430,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HTTPServerDemo/HTTPServerDemo1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node-echoProjectDemo/node_modules/argv/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -798,6 +798,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProcessManage/CommandLineCopyDir/CommandLineCopyDir.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
