@@ -40,5 +40,7 @@
 - url.parse
 	![](http://i.niupic.com/images/2016/07/30/XUfijU.png)
 - NodeJS 可以把多个程序组合在一起共同完成某项工作，并在其中充当胶水和调度器的作用。
+- process 不是内置模块，而是一个全局对象。可以通过 process 对象感知和控制 NodeJS 自身进程的方方面面。
+
 
 
