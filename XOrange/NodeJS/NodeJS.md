@@ -35,3 +35,9 @@
 - 在 Linux 系统中，监听 2014 以下端口需要 root 权限。
 - HTTP 请求本质是一个数据流，headers + body，可以用 request 对象来访问请求头数据，还能把 request 对象当做一个只读数据流来访问请求体数据。
 - NodeJS 支持 SNI 技术，可以根据 HTTPS 客户端请求使用的域名动态使用不同的证书，因此同一个 HTTP 服务器可以使用多个域名提供服务。
+- url
+	![](http://i.niupic.com/images/2016/07/30/p7SGrC.png)
+- url.parse
+	![](http://i.niupic.com/images/2016/07/30/XUfijU.png)
+
+
