@@ -48,5 +48,10 @@
 	- exec，实现原理是启动了一个系统 shell 来解析参数。
 	- execFile ？？？
 	- 为什么不一个解决啊。。。
-	- fork。fork('./child.js')，相当于 spawn('node', [./child.js])。
+	- fork。fork('./child.js')，相当于 spawn('node', [./child.js])。fork 会在父进程与子进程之间建立一个 IPC 管道，用于父子进程之间的通信。
+	- fork 函数获取一个返回值，子进程的句柄，fork 只能运行 JavaScript 代码。
+	- SIGTREAM 信号 和 SIGKILL 信号
+		- [参考](https://www.freebsd.org/doc/zh_CN.UTF-8/books/handbook/basics-daemons.html)
+		- SIGKILL，『不管您在做什么，立刻停止。』
+	
 
