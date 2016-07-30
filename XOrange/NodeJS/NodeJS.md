@@ -31,3 +31,6 @@
 - path.join
 
 	![](http://i.niupic.com/images/2016/07/29/egCTtJ.png)
+- 不管大于 0xEF ??? 的单个字节在单字节编码下被解析成什么乱码字符，使用同样的单字节编码保存这些乱码字符时，背后对应的字节保持不变。
+- 在 Linux 系统中，监听 2014 以下端口需要 root 权限。
+- HTTP 请求本质是一个数据流，headers + body，可以用 request 对象来访问请求头数据，还能把 request 对象当做一个只读数据流来访问请求体数据。
