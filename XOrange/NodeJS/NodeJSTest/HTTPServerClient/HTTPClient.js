@@ -3,7 +3,7 @@ var http = require('http');
 // 127.0.0.1 是 IP 地址, 可以是 hostname 吗?
 
 var options = {
-    hostname: 'http://127.0.0.1',
+    hostname: 'localhost',
     port: 8000,
     method: 'POST',
     headers: {
