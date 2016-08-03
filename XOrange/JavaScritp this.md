@@ -1,0 +1,13 @@
+# JavaScritp this 
+- [阮一峰](http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html)
+- this，代表函数运行时，自动生成的一个内部对象。指向调用函数的那个对象。
+- 四种情况
+	- 纯粹的函数调用
+	- 作为对象方法调用
+		- 函数可以作为某个对象的方法调用，this 指这个上级对象。
+	- 构造函数调用
+		- this 指向这个新对象。
+	- apply 调用
+		- apply 用法
+			- [参考一](http://www.cnblogs.com/treasurelife/archive/2008/03/05/1092251.html)
+			- call，调用一个对象的一个方法，以另一个对象替换当前对象。用来代替另一个对象来调用一个方法。将一个函数的对象上下文从初始的上下文改变为 thisObj 指定的新对象。如果没有提供 thisObj，那么 Global 对象被用作 thisObj。apply 传入一个参数数组，call 传入一堆参数。apply 可以直接把当前函数的 arguments 对象作为 apply 的第二个参数传入。
