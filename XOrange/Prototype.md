@@ -1,5 +1,17 @@
 # Prototype
 - [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
-- 每个对象都有一个指向它的原型（prototype）对象的内部链接，这个原型对象又有自己的原型，直到某个对象的原型为 null 为止（也就是不再有原型指向）。原型链（prototype chain）。
+	- 每个对象都有一个指向它的原型（prototype）对象的内部链接，这个原型对象又有自己的原型，直到某个对象的原型为 null 为止（也就是不再有原型指向）。原型链（prototype chain）。
 - [豆瓣](https://www.douban.com/note/293217333/)
-- JS 所有的
+	- JS 所有的东西都是对象，JS 中所有东西原型链的终点指向 Object.prototype。
+- [阮一峰 JavaScript 面向对象编程 封装](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html)
+	- object-based。
+- [阮一峰 JavaScript 面向对象编程 构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html)
+	- 构造函数绑定
+	- prototype 模式
+	- 直接继承 prototype
+	- 利用空对象作为中介
+	- 拷贝继承
+- [阮一峰 JavaScript 面向对象编程 非构造函数的继承](http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html)
+	- object() 方法
+	- 浅拷贝
+	- 深拷贝
