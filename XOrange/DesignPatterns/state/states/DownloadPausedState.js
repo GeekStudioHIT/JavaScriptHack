@@ -14,7 +14,8 @@ DownloadPausedState.prototype.pause = function () {
     throw new Error("已经暂停了，咋还要暂停呢!");
 };
 
-DownloadPausedState.prototype.fail = function () { this.oDownload.setState(this.oDownload.getDownloadedFailedState());
+DownloadPausedState.prototype.fail = function () {
+    this.oDownload.setState(this.oDownload.getDownloadedFailedState());
     console.log("下载失败!");
 };
 

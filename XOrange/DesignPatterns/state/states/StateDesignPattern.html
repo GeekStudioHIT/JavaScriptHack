@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="http://www.cnblogs.com/css/style.css" />
+    <title>State Pattern</title>
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="Download.js"></script>
+    <script src="State.js"></script>
+    <script src="DownloadFailedState.js"></script>
+    <script src="DownloadPausedState.js"></script>
+    <script src="DownloadedState.js"></script>
+    <script src="DownloadingState.js"></script>
+    <script src="ReadyState.js"></script>
+</head>
+<body>
+    <input type="button" value="开始下载" id="download_button" />
+    <input type="button" value="暂停" id="pause_button" />
+    <input type="button" value="重新下载" id="resume_button" />
+    <script type="text/javascript">
+        var oDownload = new Download();
+        $("#download_button").click(function () {
+            oDownload.download();
+        });
+
+        $("#pause_button").click(function () {
+            oDownload.pause();
+        });
+
+        $("#resume_button").click(function () {
+            oDownload.download();
+        });
+    </script>
+</body>
+</html>

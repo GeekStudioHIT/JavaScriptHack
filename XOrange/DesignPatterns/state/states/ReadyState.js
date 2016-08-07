@@ -5,9 +5,9 @@ var ReadyState = function (onDownload) {
 
 ReadyState.prototype = new State();
 
-ReadyState.prototype.download() = function () {
-    this.onDownload.setState(this.onDownload.getDownloadingState);
+ReadyState.prototype.download = function () {
     console.log("Start Download!");
+    this.onDownload.setState(this.onDownload.getDownloadingState());
 };
 
 ReadyState.prototype.pause = function () {
