@@ -22,7 +22,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="State.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/states/State.js">
+        <entry file="file://$PROJECT_DIR$/State.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -32,7 +32,7 @@
         </entry>
       </file>
       <file leaf-file-name="ReadyState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/ReadyState.js">
+        <entry file="file://$PROJECT_DIR$/ReadyState.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="28" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="28" />
@@ -42,7 +42,7 @@
         </entry>
       </file>
       <file leaf-file-name="StateDesignPattern.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/StateDesignPattern.html">
+        <entry file="file://$PROJECT_DIR$/StateDesignPattern.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
@@ -52,7 +52,7 @@
         </entry>
       </file>
       <file leaf-file-name="jquery-3.1.0.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/jquery-3.1.0.min.js">
+        <entry file="file://$PROJECT_DIR$/jquery-3.1.0.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -64,7 +64,7 @@
         </entry>
       </file>
       <file leaf-file-name="Download.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/Download.js">
+        <entry file="file://$PROJECT_DIR$/Download.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
@@ -74,7 +74,7 @@
         </entry>
       </file>
       <file leaf-file-name="DownloadedState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/DownloadedState.js">
+        <entry file="file://$PROJECT_DIR$/DownloadedState.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -84,7 +84,7 @@
         </entry>
       </file>
       <file leaf-file-name="DownloadingState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/DownloadingState.js">
+        <entry file="file://$PROJECT_DIR$/DownloadingState.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
@@ -94,7 +94,7 @@
         </entry>
       </file>
       <file leaf-file-name="DownloadFailedState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/DownloadFailedState.js">
+        <entry file="file://$PROJECT_DIR$/DownloadFailedState.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="27" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -104,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="DownloadPausedState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/states/DownloadPausedState.js">
+        <entry file="file://$PROJECT_DIR$/DownloadPausedState.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
@@ -144,8 +144,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="128" />
-    <option name="y" value="331" />
+    <option name="x" value="332" />
+    <option name="y" value="232" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
   </component>
@@ -192,10 +192,6 @@
               <option name="myItemId" value="state" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="states" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -210,6 +206,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/states" />
     </key>
   </component>
@@ -284,18 +281,18 @@
       <workItem from="1470207366371" duration="1158000" />
       <workItem from="1470211044195" duration="10000" />
       <workItem from="1470281094403" duration="373000" />
-      <workItem from="1470540418936" duration="6705000" />
+      <workItem from="1470540418936" duration="6857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8246000" />
+    <option name="totallyTimeSpent" value="8398000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="331" width="1440" height="873" extended-state="1" />
-    <editor active="true" />
+    <frame x="332" y="232" width="1440" height="873" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -329,7 +326,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/states/State.js">
+    <entry file="file://$PROJECT_DIR$/State.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -337,7 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/State.js">
+    <entry file="file://$PROJECT_DIR$/State.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -345,7 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/jquery-3.1.0.min.js">
+    <entry file="file://$PROJECT_DIR$/jquery-3.1.0.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -355,7 +352,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/ReadyState.js">
+    <entry file="file://$PROJECT_DIR$/ReadyState.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="28" />
@@ -363,7 +360,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/DownloadPausedState.js">
+    <entry file="file://$PROJECT_DIR$/DownloadPausedState.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
@@ -371,7 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/DownloadingState.js">
+    <entry file="file://$PROJECT_DIR$/DownloadingState.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
@@ -379,7 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/DownloadFailedState.js">
+    <entry file="file://$PROJECT_DIR$/DownloadFailedState.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -387,7 +384,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/Download.js">
+    <entry file="file://$PROJECT_DIR$/Download.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
@@ -395,7 +392,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/DownloadedState.js">
+    <entry file="file://$PROJECT_DIR$/DownloadedState.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -403,7 +400,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/StateDesignPattern.html">
+    <entry file="file://$PROJECT_DIR$/StateDesignPattern.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
@@ -411,7 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/states/State.js">
+    <entry file="file://$PROJECT_DIR$/State.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
