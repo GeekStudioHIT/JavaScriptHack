@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>canvasTest1</title>
+</head>
+<body>
+<canvas id="canvas" style="border:1px solid #aaa; display:block; margin:50px auto">
+    当前浏览器不支持 Canvas，请更换浏览器后再试
+</canvas>
+<script>
+    var goodsNumArray = [3, 3, 3];
+    window.onload = function() {
+        var canvas = document.getElementById("canvas");
+        canvas.width = 100 * goodsNumArray.length;
+        canvas.height = 60;
+        var context = canvas.getContext("2d");
+        for (var i = 0; i < goodsNumArray.length; i++) {
+            context.fillStyle = "#29b6f6";
+            context.strokeStyle = "#666666";
+            context.lineWidth = 2;
+            context.fillRect(100 * i, 0, 100, 60);
+            context.strokeRect(100 * i, 0, 100, 60);
+            context.font = "normal 20px/0 \"Lucida Console\", Monaco, monospace";
+            context.fillStyle = "#ffffff";
+            context.textAlign = "center";
+            context.textBaseline = "middle";
+            context.fillText(goodsNumArray[i] + "", 100 * (i + 0.5), 60 / 2);
+        }
+    };
+</script>
+</body>
+</html>
