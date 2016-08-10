@@ -53,7 +53,9 @@ angular.module('mySuperApp', ['ionic'])
         $scope.showAlert = function() {
             var alertPopup = $ionicPopup.alert({
                 title: 'Don\'t eat that!',
-                template: 'It might taste good'
+                // template: 'It might taste good'
+                okText: "false",
+                okType: 'calm'
             });
             alertPopup.then(function(res) {
                 console.log('Thank you for not eating my delicious ice cream cone');
