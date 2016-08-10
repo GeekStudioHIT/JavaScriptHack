@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>canvasTest2</title>
+</head>
+<body>
+<canvas id="canvas" style="border:1px solid #aaa; display:block; margin:50px auto">
+    当前浏览器不支持 Canvas，请更换浏览器后再试
+</canvas>
+<script>
+    var locationStr = "S01";
+    window.onload = function() {
+        var canvas = document.getElementById("canvas");
+        canvas.width  = 100;
+        canvas.height = 100;
+        var context = canvas.getContext("2d");
+        context.fillStyle = "#e84e40";
+        context.fillRect(0, 0, canvas.width, canvas.height);
+        context.font = "normal 50px/0 \"Lucida Console\", Monaco, monospace";
+        context.fillStyle = "#ffffff";
+        context.textAlign = "center";
+        context.textBaseline = "middle";
+        context.fillText(locationStr, canvas.width / 2, canvas.height / 2);
+    };
+</script>
+</body>
+</html>
