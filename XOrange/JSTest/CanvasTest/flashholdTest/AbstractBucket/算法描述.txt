@@ -26,4 +26,18 @@
 	如果换一层了
 		那就再加上这个货位的高度。
 
-绘制: 计算每一层的绘制顶点
+绘制货架，关键在于计算每一层的顶点。
+初始化
+	currentHeightBucket 初始化为第一个货位的高度加上 intervalBar 的高度。
+	layerStartY 为 5。
+过一遍 data
+	当是同一层
+	 	当不是同一 bucketVOffset。
+			currentHeightBucket 加上当前这个货位的高度。
+			currentBucketVOffset 为当前这个货位的 VOffset。
+	当换一层时
+		layerStartY = layerStartY 加上 currrentHeightBucket（上一层的高度） + intervalBarHeight。
+			currentHeightBucket 加上当前这个货位的高度 加上 间隔条的高度。
+			currentBucketVOffset 为当前这个货位的 VOffset。
+			currentLayer 为当前这个货位的 bucketLayer。
+
