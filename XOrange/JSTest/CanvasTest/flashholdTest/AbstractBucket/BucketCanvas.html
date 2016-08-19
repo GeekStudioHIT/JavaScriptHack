@@ -2466,7 +2466,11 @@
                 currentBucketVOffset = sortedBucketsData[i].bucketVOffset;
                 currentLayer = sortedBucketsData[i].bucketLayer;
             }
-            ctx.fillStyle = "#29b6f6";
+            if (i == 8) { // 被选中的货位
+                ctx.fillStyle = "#e84e40";
+            } else {
+                ctx.fillStyle = "#29b6f6";
+            }
             ctx.fillRect(sortedBucketsData[i].bucketOffset, layerStartY + sortedBucketsData[i].bucketVOffset,
                     sortedBucketsData[i].bucketSlotType.width, sortedBucketsData[i].bucketSlotType.height);
             ctx.strokeStyle = "#666666";
@@ -2474,29 +2478,6 @@
             ctx.strokeRect(sortedBucketsData[i].bucketOffset, layerStartY + sortedBucketsData[i].bucketVOffset,
                     sortedBucketsData[i].bucketSlotType.width, sortedBucketsData[i].bucketSlotType.height);
         }
-//        var startY = 0;
-//        var currentLayerHeight = 0;
-//        currentLayer = sortedBucketsData[0].bucketLayer;
-//        currentBucketVOffset = sortedBucketsData[0].bucketVOffset;
-//
-//        for (var i = 0; i < lengthOfSortedBucketsData - 1; i++) {
-//            if (currentLayer == sortedBucketsData[i].bucketLayer) {
-//                if (currentBucketVOffset < sortedBucketsData[i].bucketVOffset) {
-//                    currentLayerHeight += sortedBucketsData[i].bucketSlotType.height;
-//                }
-//            } else if (currentLayer > sortedBucketsData[i].bucketLayer) {
-//            }
-//        }
-//        var layerStartY = heightOfBuckets - sortedBucketsData[0].bucketSlotType.height;
-//        currentLayer = sortedBucketsData[0].bucketLayer;
-//        for (var i = 0; i < lengthOfSortedBucketsData - 1; i++) {
-//            if (currentLayer < sortedBucketsData[i].bucketLayer) {
-//                currentLayer = sortedBucketsData[i].bucketLayer;
-//                layerStartY -= sortedBucketsData[i].bucketSlotType.height;
-//            }
-//            ctx.strokeRect(sortedBucketsData[i].bucketOffset, layerStartY + sortedBucketsData[i].bucketVOffset,
-//                    sortedBucketsData[i].bucketSlotType.width, sortedBucketsData[i].bucketSlotType.height);
-//        }
     };
 </script>
 </body>

@@ -2402,7 +2402,7 @@
     var heightOfBuckets = sortedBucketsData[lengthOfSortedBucketsData - 1].bucketType.availableHeight;
 
     var buckets = document.getElementById("buckets");
-    buckets.style = "position: absolute; width: 100%; height: 100%; border: 1px solid #F00;";
+    buckets.style = "position: absolute; width: 100%; height: 100%; border: 1px solid #ffffff;";
 
     var intervalBarHeight = 5;
     var layerStartY = intervalBarHeight;
@@ -2427,9 +2427,21 @@
         bucket.style.left = (sortedBucketsData[i].bucketOffset / widthOfBuckets).toFixed(2).slice(2, 4) + "%";
         bucket.style.height = (sortedBucketsData[i].bucketSlotType.height / heightOfBuckets).toFixed(2).slice(2, 4) + "%";
         bucket.style.width = (sortedBucketsData[i].bucketSlotType.width / widthOfBuckets).toFixed(2).slice(2, 4) + "%";
-        bucket.style.border = "1px solid #F00";
+        bucket.style.border = "1px solid #ffffff";
+        bucket.style.background = "#29b6f6";
+        bucket.style.wordWrap = "break-word";
+        bucket.style.overflow = "hidden";
+        bucket.style.textOverflow = "ellipsis";
+
+        // 生成一个很长的字符串, 实际使用需要删除
+        var str = "";
+        for (var j = 0; j < 100; j++) {
+            var gen = Math.random();
+            str += gen;
+        }
+        bucket.innerHTML = str;
         bucket.onclick = function () {
-            alert(this.style.height);
+            alert(this.innerHTML);
         };
         buckets.appendChild(bucket);
     }
