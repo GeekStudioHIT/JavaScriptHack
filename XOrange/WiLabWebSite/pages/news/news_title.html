@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新闻</title>
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/pagination.css" rel="stylesheet">
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/pagination.min.js"></script>
+    <style>
+        body {
+            padding-top: 50px;
+            margin: 0;
+            padding-left: 0;
+            padding-right: 0;
+            background: #f6f6f6;
+        }
+        ul, li {
+            list-style: none;
+        }
+
+        #wrapper {
+            width: 900px;
+            margin: 20px auto;
+        }
+
+        .data-container {
+            margin-top: 5px;
+        }
+
+        .data-container ul {
+            padding: 0;
+            margin: 0;
+        }
+
+        .data-container li {
+            margin-bottom: 5px;
+            padding: 5px 10px;
+            background: #eee;
+            color: #666;
+        }
+        #wrapper a {
+            text-decoration: underline;
+        }
+        #wrapper a:hover {
+            color: #0000CC;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+<!-- 顶部导航 -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../../index.html">首页</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">研究室<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="../lab/intro.html">研究室简介</a></li>
+                        <li><a href="../lab/research_direction.html">研究方向</a></li>
+                        <li><a href="../lab/member.html">研究室成员</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">科研展示<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="../exhibition/project.html">科研项目</a></li>
+                        <li><a href="../exhibition/paper.html">发表论文</a></li>
+                        <li><a href="../exhibition/system.html">系统演示</a></li>
+                        <li><a href="../exhibition/corpus.html">语料构建</a></li>
+                    </ul>
+                </li>
+                <li><a href="../news/news_title.html">新闻</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 内容 -->
+<div id="wrapper" class="container">
+    <div class="data-container"></div>
+    <div id="pagination"></div>
+    <script>
+        $(function () {
+            var container = $('#pagination');
+            var source = [
+                '<a href="./detail/new1.html">WI研究室和eHealth研究所开展医疗健康大数据的密切合作</a>',
+                '<a href="./detail/new2.html">Wi 输入法三周年 多平台同时上线</a>',
+                '<a href="./detail/new3.html">研究室1篇论文被Physica A期刊录用</a>',
+                '<a href="./detail/new4.html">工作动态参加CF TCCI举办的中文微博情感分析评测</a>',
+                '<a href="./detail/new5.html">中文词与句情感分析系统夺魁</a>',
+                '<a href="./detail/new6.html">参加TREC2011微博检索评测</a>',
+                '<a href="./detail/new7.html">Wi输入法荣获提名奖</a>',
+                '<a href="./detail/new8.html">与哈医大二院合作开发电子病历管理系统</a>',
+                '<a href="./detail/new9.html">参加TREC2010微博检索评测</a>'
+            ];
+            var options = {
+                dataSource: source,
+                pageSize: 9,
+                callback: function (response) {
+                    var dataHtml = '<ul>';
+
+                    $.each(response, function (index, item) {
+                        dataHtml += '<li>' + item + '</li>';
+                    });
+
+                    dataHtml += '</ul>';
+
+                    container.prev().html(dataHtml);
+                }
+            };
+            container.pagination(options);
+        });
+    </script>
+</div>
+
+<!-- 页脚 -->
+<footer style="width: 100%">
+    <!-- 横线 -->
+    <div style="background-color:gray; width:100%; height:1px;"></div>
+
+    <div class="container">
+        <br/>
+        <p class="text-center">地址：哈尔滨市南岗区西大直街92号</p>
+        <p class="text-center"> Copyright ©   哈尔滨工业大学计算机学院语言技术研究中心网络智能研究室 </p>
+    </div>
+</footer>
+</body>
+</html>
